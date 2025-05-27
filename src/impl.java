@@ -7,15 +7,19 @@ public class impl {
         //🔸 Interface শুধু method-এর নাম ও কাঠামো (signature) বলে দেয়,
         //কিন্তু body ({} এর ভেতরের কাজ) দেয় না।
         // jate user/programmer pore egulay nijee code dukaite pare. but structure cng na hoy
-        
+
         interface Animal {
             void eat();
         }
 
         class Dog implements Animal {
+            @Override
             public void eat() {
                 System.out.println("Dog is eating");
             }
         }
     }
 }
+
+//এখানে method টার body interface-এ ছিল না,
+//তুমি নিজের মতো করে কাজ দাও — তাও override বলে গোনা হয়।
