@@ -13,6 +13,8 @@ public class extnd {
         }
         Dog dog = new Dog();
         dog.eat();  // Outputs: Animal is eating
+        dog.bark(); // Outputs: Dog is barking
+        // use can both
 
 // extends (এক্সটেন্ডস) শব্দের অর্থ: "প্রসারিত করা" বা "বাড়ানো"।
 // যদি extends করে, এবং উভয় class-এ একই নামে void method থাকে, তাহলে subclass-এর method টা override করে দেয় superclass-এরটা।
